@@ -25,6 +25,8 @@ Script to send configuration from a file to a list of devices (routers and switc
 4) Run config_devices_from_file.py
 5) Inform username, password and enable
 
+![Output](https://raw.githubusercontent.com/andreirapuru/netmiko_send_commands/main/send_commands.PNG)
+
 # Use case:
 - to perform backup, to enables logging, to collects information, to creates username, shut/no shut interfaces, to removes config, any other config/command that can be repeated over different devices
 
