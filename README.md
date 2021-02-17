@@ -1,4 +1,4 @@
-# netmiko_send_commands
+# Netmiko Send Commands
 Script to send configuration from a file to a list of devices (routers and switches running IOS).
 
 # Requires:
@@ -27,6 +27,9 @@ Script to send configuration from a file to a list of devices (routers and switc
 
 # Use case:
 - to perform backup, to enables logging, to collects information, to creates username, shut/no shut interfaces, to removes config, any other config/command that can be repeated over different devices
+
+# Getting Help
+If you are having trouble or need help, create an issue [here](https://github.com/andreirapuru/netmiko_send_commands/issues)
 
 # Credits and references
 - All credits to Kirk Byers for making [Netmiko](https://github.com/ktbyers/netmiko)
