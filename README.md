@@ -1,5 +1,6 @@
 # Netmiko Send Commands
 Script to send configuration from a file to a list of devices (routers and switches running IOS).
+The output is saved in a .txt.
 
 # Requires:
 - Python (tested on Python 2.7 and 3.6)
