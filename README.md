@@ -4,12 +4,13 @@ The output is saved in a .txt.
 
 # Requires:
 - Python (tested on Python 2.7 and 3.6)
-- Netmiko >= 2.2.2
-- getpass
-- csv
-- logging
-- datetime
-- pip install -r requirements.txt
+- Modules
+  - Netmiko >= 2.2.2
+  - getpass
+  - csv
+  - logging
+  - datetime
+- You can use pip install -r requirements.txt to install all modules
 
 # Supports:
 - Routers and Switches Cisco running IOS with SSH/Telnet configured (default ports 22/23)
