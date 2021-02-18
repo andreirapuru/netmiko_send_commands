@@ -5,10 +5,11 @@ The output is saved in a .txt.
 # Requires:
 - Python (tested on Python 2.7 and 3.6)
 - Netmiko >= 2.2.2
-- import getpass
-- import csv
-- import logging
+- getpass
+- csv
+- logging
 - datetime
+- pip install -r requirements.txt
 
 # Supports:
 - Routers and Switches Cisco running IOS with SSH/Telnet configured (default ports 22/23)
