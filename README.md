@@ -2,7 +2,7 @@
 Script to send commands from a file to a list of devices (routers and switches running IOS).
 The output is saved in a .txt.
 
-# Requires:
+# Requires
 - Python (tested on Python 2.7 and 3.6)
 - Modules
   - Netmiko >= 2.2.2
@@ -10,16 +10,16 @@ The output is saved in a .txt.
   - csv
   - You can use pip install -r requirements.txt to install all modules
 
-# Supports:
+# Supports
 Routers and Switches Cisco running IOS with SSH/Telnet configured (default ports 22/23)
 
-# Limitations:
+# Limitations
 - Same credentials for all devices
 - Only SSH/Telnet with default ports (22/23)
 - Last line on configuration file can not be 'exit'
 - Only config that can be the same in different devices
 
-# Usage:
+# Usage
 1) Download this repository or copy all of the content config_devices_from_file.py file into a python file
 2) Inform port (22/23) and IP address of devices in devices_to_configure.csv file
 ![devices](https://user-images.githubusercontent.com/17407109/108557485-71efad00-72d7-11eb-8ca6-33b452f9e621.PNG)
@@ -28,7 +28,7 @@ Routers and Switches Cisco running IOS with SSH/Telnet configured (default ports
 4) Run pynton send_commands.py
 5) Inform username, password and enable
 
-# Use case:
+# Use case
 To perform backup, to enables logging, to collects information, to creates username, shut/no shut interfaces, to removes config, any other config/command that can be repeated over different devices
 
 # Getting Help
