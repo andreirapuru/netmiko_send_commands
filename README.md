@@ -25,7 +25,7 @@ The output is saved in a .txt.
 ![devices](https://user-images.githubusercontent.com/17407109/108557485-71efad00-72d7-11eb-8ca6-33b452f9e621.PNG)
 3) Put the configuration that you want to send to devices in file commands_to_send.txt (it starts in config mode)
 ![commands](https://user-images.githubusercontent.com/17407109/108557453-64d2be00-72d7-11eb-8c7f-e00e3676a834.PNG)
-4) Run config_devices_from_file.py
+4) Run pynton send_commands.py
 ![send~](https://user-images.githubusercontent.com/17407109/108557282-1c1b0500-72d7-11eb-8b25-2134fa2e6403.PNG)
 5) Inform username, password and enable
 
