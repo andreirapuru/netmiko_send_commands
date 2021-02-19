@@ -39,5 +39,4 @@ If you are having trouble or need help, create an issue [here](https://github.co
 - All credits to Kirk Byers for making [Netmiko](https://github.com/ktbyers/netmiko)
 
 
-
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/andreirapuru/netmiko_send_commands)
