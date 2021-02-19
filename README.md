@@ -26,8 +26,8 @@ The output is saved in a .txt.
 3) Put the configuration that you want to send to devices in file commands_to_send.txt (it starts in config mode)
 ![commands](https://user-images.githubusercontent.com/17407109/108556660-1f61c100-72d6-11eb-9c36-9e8ed7f6b6ee.PNG)
 4) Run config_devices_from_file.py
-![send](https://user-images.githubusercontent.com/17407109/108556705-330d2780-72d6-11eb-979a-641bbb1deb01.PNG)
-6) Inform username, password and enable
+![send~](https://user-images.githubusercontent.com/17407109/108557282-1c1b0500-72d7-11eb-8b25-2134fa2e6403.PNG)
+5) Inform username, password and enable
 
 # Use case:
 - to perform backup, to enables logging, to collects information, to creates username, shut/no shut interfaces, to removes config, any other config/command that can be repeated over different devices
