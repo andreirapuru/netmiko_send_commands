@@ -27,7 +27,7 @@ The output is saved in a .txt.
 ![commands](https://user-images.githubusercontent.com/17407109/108556660-1f61c100-72d6-11eb-9c36-9e8ed7f6b6ee.PNG)
 4) Run config_devices_from_file.py
 ![send](https://user-images.githubusercontent.com/17407109/108556705-330d2780-72d6-11eb-979a-641bbb1deb01.PNG)
-5) Inform username, password and enable
+6) Inform username, password and enable
 
 # Use case:
 - to perform backup, to enables logging, to collects information, to creates username, shut/no shut interfaces, to removes config, any other config/command that can be repeated over different devices
