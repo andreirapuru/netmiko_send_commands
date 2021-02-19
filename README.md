@@ -1,5 +1,5 @@
 # Netmiko Send Commands
-Script to send configuration from a file to a list of devices (routers and switches running IOS).
+Script to send commands from a file to a list of devices (routers and switches running IOS).
 The output is saved in a .txt.
 
 # Requires:
@@ -8,9 +8,7 @@ The output is saved in a .txt.
   - Netmiko >= 2.2.2
   - getpass
   - csv
-  - logging
-  - datetime
-- You can use pip install -r requirements.txt to install all modules
+  - You can use pip install -r requirements.txt to install all modules
 
 # Supports:
 - Routers and Switches Cisco running IOS with SSH/Telnet configured (default ports 22/23)
