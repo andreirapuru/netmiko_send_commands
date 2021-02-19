@@ -23,11 +23,12 @@ The output is saved in a .txt.
 1) Download this repository or copy all of the content config_devices_from_file.py file into a python file
 2) Inform port (22/23) and IP address of devices in devices_to_configure.csv file
 ![devices](https://user-images.githubusercontent.com/17407109/108557485-71efad00-72d7-11eb-8ca6-33b452f9e621.PNG)
-3) Put the configuration that you want to send to devices in file commands_to_send.txt (it starts in config mode)
+3) Put the commands that you want to send to devices in file commands_to_send.txt (it starts in config mode)
 ![commands](https://user-images.githubusercontent.com/17407109/108557453-64d2be00-72d7-11eb-8c7f-e00e3676a834.PNG)
 4) Run pynton send_commands.py
 ![send~](https://user-images.githubusercontent.com/17407109/108557282-1c1b0500-72d7-11eb-8b25-2134fa2e6403.PNG)
 5) Inform username, password and enable
+
 
 # Use case:
 - to perform backup, to enables logging, to collects information, to creates username, shut/no shut interfaces, to removes config, any other config/command that can be repeated over different devices
