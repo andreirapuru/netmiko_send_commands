@@ -11,7 +11,7 @@ The output is saved in a .txt.
   - You can use pip install -r requirements.txt to install all modules
 
 # Supports:
-- Routers and Switches Cisco running IOS with SSH/Telnet configured (default ports 22/23)
+Routers and Switches Cisco running IOS with SSH/Telnet configured (default ports 22/23)
 
 # Limitations:
 - Same credentials for all devices
@@ -29,13 +29,13 @@ The output is saved in a .txt.
 5) Inform username, password and enable
 
 # Use case:
-- to perform backup, to enables logging, to collects information, to creates username, shut/no shut interfaces, to removes config, any other config/command that can be repeated over different devices
+to perform backup, to enables logging, to collects information, to creates username, shut/no shut interfaces, to removes config, any other config/command that can be repeated over different devices
 
 # Getting Help
 If you are having trouble or need help, create an issue [here](https://github.com/andreirapuru/netmiko_send_commands/issues)
 
 # Credits and references
-- All credits to Kirk Byers for making [Netmiko](https://github.com/ktbyers/netmiko)
+All credits to Kirk Byers for making [Netmiko](https://github.com/ktbyers/netmiko)
 
 
 [![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/andreirapuru/netmiko_send_commands)
