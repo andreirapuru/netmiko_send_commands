@@ -29,7 +29,7 @@ Routers and Switches Cisco running IOS with SSH/Telnet configured (default ports
 5) Inform username, password and enable
 
 # Use case:
-to perform backup, to enables logging, to collects information, to creates username, shut/no shut interfaces, to removes config, any other config/command that can be repeated over different devices
+To perform backup, to enables logging, to collects information, to creates username, shut/no shut interfaces, to removes config, any other config/command that can be repeated over different devices
 
 # Getting Help
 If you are having trouble or need help, create an issue [here](https://github.com/andreirapuru/netmiko_send_commands/issues)
