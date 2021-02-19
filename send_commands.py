@@ -1,4 +1,5 @@
-#Author: Andre Ortega, brainwork.com.br, https://github.com/andreirapuru/netmiko_script_automation
+#Author: Andre Ortega, brainwork.com.br
+#https://github.com/andreirapuru/netmiko_send_commands
 
 import getpass
 import netmiko
