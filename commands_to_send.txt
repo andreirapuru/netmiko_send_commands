@@ -1,0 +1,3 @@
+do sh ip int brief 
+
+
