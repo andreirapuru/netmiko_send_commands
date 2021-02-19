@@ -22,11 +22,12 @@ The output is saved in a .txt.
 # Usage:
 1) Download this repository or copy all of the content config_devices_from_file.py file into a python file
 2) Inform port (22/23) and IP address of devices in devices_to_configure.csv file
+![devices](https://user-images.githubusercontent.com/17407109/108556585-00632f00-72d6-11eb-8d07-04b65647fb1e.PNG)
 3) Put the configuration that you want to send to devices in file commands_to_send.txt (it starts in config mode)
+![commands](https://user-images.githubusercontent.com/17407109/108556660-1f61c100-72d6-11eb-9c36-9e8ed7f6b6ee.PNG)
 4) Run config_devices_from_file.py
+![send](https://user-images.githubusercontent.com/17407109/108556705-330d2780-72d6-11eb-979a-641bbb1deb01.PNG)
 5) Inform username, password and enable
-
-![Output](https://raw.githubusercontent.com/andreirapuru/netmiko_send_commands/main/send_commands.PNG)
 
 # Use case:
 - to perform backup, to enables logging, to collects information, to creates username, shut/no shut interfaces, to removes config, any other config/command that can be repeated over different devices
