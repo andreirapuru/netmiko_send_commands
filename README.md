@@ -8,7 +8,7 @@ The output is saved in a .txt.
   - Netmiko >= 2.2.2
   - getpass
   - csv
-  - You can use pip install -r requirements.txt to install all modules
+- You can use pip install -r requirements.txt to install all modules
 
 # Supports
 Routers and Switches Cisco running IOS with SSH/Telnet configured (default ports 22/23)
@@ -20,8 +20,9 @@ Routers and Switches Cisco running IOS with SSH/Telnet configured (default ports
 - Only config that can be the same in different devices
 
 # Usage
-1) Download this repository or copy all of the content config_devices_from_file.py file into a python file
-2) Inform port (22/23) and IP address of devices in devices_to_configure.csv file
+1) Install Python and the required modules
+2) Download this repository or copy files commands_to_send.txt, devices_to_configure.csv and send_commands.py to the same folder
+4) Inform port (22/23) and IP address of devices in devices_to_configure.csv file
 ![devices](https://user-images.githubusercontent.com/17407109/108557485-71efad00-72d7-11eb-8ca6-33b452f9e621.PNG)
 3) Put the commands that you want to send to devices in file commands_to_send.txt (it starts in config mode)
 ![commands](https://user-images.githubusercontent.com/17407109/108557453-64d2be00-72d7-11eb-8c7f-e00e3676a834.PNG)
